@@ -1,0 +1,16 @@
+namespace: #Optional
+topics:
+  CompressedImage:
+    - /swir/basler/image_raw/compressed
+    - /visual/hik/image_raw/compressed
+    - /image_raw/compressed
+    - /my_camera/pylon_ros2_camera_node/image_raw/compressed
+  PointCloud2:
+    - /ouster/points
+  Odometry:
+    - /mavros/local_position/odom
+  NavSatFix:
+    - /mavros/global_position/global
+  TFMessage:
+    - /tf
+    - /tf_static
