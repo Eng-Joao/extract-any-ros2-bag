@@ -3,7 +3,7 @@
 This script includes the `get_bag_data` function, which processes specific topics (CompressedImage, Odometry, NavSatFix, and PointCloud2) from ROS2 bag files (.mcap or .db3). It extracts the data and saves it in accessible formats (.png, .csv, .pcd) within an organized folder structure.
 
 ## Requirements:
-- OpenCV
+- OpenCV (https://pypi.org/project/opencv-python/)
 - MCAP plugin (https://mcap.dev/guides/getting-started/ros-2)
 - Open 3D (https://www.open3d.org/docs/release/getting_started.html)
 - ROS2 dependencies (rosbag2_py, rclpy, rosidl_runtime_py)
