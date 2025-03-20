@@ -25,13 +25,13 @@ topics:
 
 The program will automatically search for any .yaml file in the folder where the script is located. 
 If a .yaml file is found, you can run the program as follows:
-    ``` python get_bag_data.py {path/to/bag_file}
+    ``` python get_bag_data.py {path/to/bag_file} ```
 
 Alternatively, if you want to specify a custom .yaml file, use the --topic flag:
-    ``` python get_bag_data.py {path/to/bag_file} --topic {path/to/file.yaml}
+    ``` python get_bag_data.py {path/to/bag_file} --topic {path/to/file.yaml} ```
 
 You can also manually specify a topic directly via the command line like this:
-    ``` python get_bag_data.py {path/to/bag_file} --topic {/specific/topic}
+    ``` python get_bag_data.py {path/to/bag_file} --topic {/specific/topic} ```
 
 
 Author: João Campanhã, INESC TEC
